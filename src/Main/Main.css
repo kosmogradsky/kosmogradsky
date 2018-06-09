@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:300,400&subset=cyrillic');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', serif;  
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.name {
+  font-size: 3.998em;
+  font-family: 'Roboto Slab', serif;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 300;
+}
+
+.avatar {
+  height: 15.625em;
+  margin-left: 2em;
+  border-radius: 50%;
+}
+
+.h1, .h2 {
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.h1 {
+  font-size: 1.999em;
+}
+
+.h2 {
+  font-size: 1.414em;
+}
+
+.about {
+  margin-right: 2rem;
+}
+
+.text {
+  width: 750px;
+  font-size: 1.125em;
+  margin-bottom: 3rem;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 1400px;
+}
+
+.contacts,
+.info {
+  text-align: right;
+}
+
+.contacts {
+  margin-top: 12rem;
+  line-height: 2;
+}
+
+.jobs {
+  margin-bottom: 3rem;
+}
+
+.lang {
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+.langLink {
+  font-family: 'Roboto Slab', serif;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-weight: 300;
+}
+
+.coursesLinks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 160px;
+}
+
+.coursesLinks a {
+  padding-right: 2em;
+}
+
+@media (max-width: 1152px) {
+  .container,
+  .text {
+    width: auto;
+  }
+
+  .nameContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .avatar {
+    margin-left: 0;
+  }
+
+  .main {
+    max-height: none;
+  }
+
+  .name {
+    font-size: 2.441em;
+    text-align: center;
+  }
+
+  .contacts,
+  .info {
+    text-align: left;
+  }
+
+  .contacts {
+    margin-top: 1rem;
+  }
+
+  .info {
+    order: -1;
+    margin-bottom: .5em;
+  }
+}

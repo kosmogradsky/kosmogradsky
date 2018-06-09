@@ -1,0 +1,37 @@
+.root {
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 6.25em;
+  height: 6.25em;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+.description {
+  line-height: 1.7;
+}
+
+.period {
+  margin-bottom: 1rem;
+}
+
+.companyName {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.414em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+@media (max-width: 350px) {
+  .logo {
+    width: 5.25em;
+    height: 5.25em;
+  }
+}
