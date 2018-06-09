@@ -123,6 +123,7 @@ export class Main extends React.PureComponent<RouteComponentProps<any>> {
           <div className={s.contacts}>
             {t.phone}: <a href="tel:+375292873422">+375 29 287-34-22</a><br/>
             Skype: <a href="skype:live:banjur4?userinfo">banjur4@outlook.com</a><br/>
+            Github: <a href="https://github.com/kosmogradsky">kosmogradsky</a><br/>
             Telegram: <a href="https://t.me/kosmogradsky">@kosmogradsky</a><br/>
             {t.email}: <a href="mailto:kosmogradsky@yandex.ru">kosmogradsky@yandex.ru</a><br/>
           </div>
