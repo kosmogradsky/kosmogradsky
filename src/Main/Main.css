@@ -120,6 +120,10 @@ a {
     width: auto;
   }
 
+  .about {
+    margin-right: 0;
+  }
+
   .nameContainer {
     flex-direction: column-reverse;
     align-items: center;
@@ -131,6 +135,7 @@ a {
 
   .main {
     max-height: none;
+    flex-wrap: nowrap;
   }
 
   .name {
@@ -150,5 +155,11 @@ a {
   .info {
     order: -1;
     margin-bottom: .5em;
+  }
+}
+
+@media (max-width: 359px) {
+  html {
+    font-size: 14px;
   }
 }
