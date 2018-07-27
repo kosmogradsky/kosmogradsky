@@ -21,13 +21,6 @@ export const ru = {
   },
   skills: 'Профессиональные навыки',
   experience: 'Опыт работы',
-  education: 'Образование',
-  courses: 'Курсы',
-  higherEducation: 'Высшее образование',
-  SBMPEI: 'Филиал МЭИ в г. Смоленске',
-  get SBMPEIsubtitle() {
-    return <span>Направление «Энергетика и электротехника»<br />Профиль «Электроэнергетические системы и сети»</span>
-  },
   remotely: 'Удалённо',
   Smolensk: 'Смоленск',
   email: 'Почта',
@@ -51,7 +44,6 @@ export const ru = {
   
     return `${formattedStart} — ${formattedEnd}`
   },
-  currentlyIn: 'Сейчас в Минске',
-  untilNow: 'по настоящее время',
-  someCoursesOn: 'Несколько курсов по',
+  currentlyIn: 'Сейчас в Санкт-Петербурге',
+  untilNow: 'по настоящее время'
 }
