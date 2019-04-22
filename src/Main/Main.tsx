@@ -9,7 +9,7 @@ import { ru } from '../translations/ru';
 
 const s = require('./Main.css')
 const avatar = require('../../assets/avatar.jpg')
-const csssrLogo = require('../../assets/csssr.png')
+const csssrLogo = require('../../assets/csssr.jpg')
 const spacetyLogo = require('../../assets/spacety.jpg')
 const sbmpeiLogo = require('../../assets/sbmpei.jpg')
 
