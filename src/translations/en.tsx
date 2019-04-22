@@ -19,6 +19,13 @@ export const en = {
   },
   skills: 'Professional skills',
   experience: 'Professional experience',
+  education: 'Education',
+  courses: 'Courses',
+  higherEducation: 'Higher Education',
+  get SBMPEI() {
+    return <span>Smolensk branch<br/>of Moscow power engineering institute</span>
+  },
+  SBMPEIsubtitle: 'Power and electrical engineering',
   remotely: 'Remotely',
   Smolensk: 'Smolensk, Russia',
   email: 'E-mail',
@@ -42,6 +49,7 @@ export const en = {
   
     return `${formattedStart} — ${formattedEnd}`
   },
-  currentlyIn: 'Currently in Saint Petersburg',
-  untilNow: 'until now'
+  currentlyIn: 'Currently in Minsk',
+  untilNow: 'until now',
+  someCoursesOn: 'Some courses on'
 }
